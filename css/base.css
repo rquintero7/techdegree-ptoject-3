@@ -127,6 +127,18 @@ select {
   border-radius: 2px;
 }
 
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: 2px solid rgb(22, 22, 58);
+}
+
+[placeholder] {
+  text-align: right;
+  color: rgb(223, 12, 12);
+}
+
 #topics {
   background: rgba(255,255,255,0.1);
   border: none;
