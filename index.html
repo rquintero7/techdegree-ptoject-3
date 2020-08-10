@@ -15,19 +15,22 @@
     
     <div class="top">
       <h2>Signup for our newsletter</h2>
-      <p>Get the latest news on how your code is doing right in your inbox</p>
+      <p class="latest">Get the latest news on how your code is doing right in your inbox</p>
     </div>
-    <hr>
-
+    <div class="line">
+      <hr class="line_break">
+      <hr class="line_break2">
+    </div>
 
     <form action="indedx.html" method="POST">
         
       <fieldset>
-        <legend><span></span>Contact Information</legend>
-        <label for="name">Full Name <option value="">Required</option></label>
+        <h2 class="contact">Contact Information</h2>
+        <label for="name">Full Name</label>
         <input type="text" id="name" name="full_name">
+        
 
-        <label for="mail">Email Address <option value="">Required</option></label>
+        <label for="mail">Email Address</label>
         <input type="email" id="mail" name="user_email">
 
         <label for="phone">Phone Number</label>
@@ -103,10 +106,12 @@
 
       </fieldset>
 
-      <fieldset>
-        <legend><span></span>Newsletter</legend>
+      <hr class="line_break2">
 
-        <label for="">Select the newsletter you would like to recieve</label> <br>
+      <fieldset>
+        <h2 class="newsletter">Newsletter</h2>
+
+        <p>Select the newsletter you would like to recieve</p> <br>
 
         <input type="checkbox" id="html_news" value="interest_html" name="user_interest">
         <label for="html_news" class="news">HTML News</label> <br>
@@ -117,7 +122,7 @@
         <input type="checkbox" id="javascript_news" value="interest_javascript" name="user_interest">
         <label for="javascript_news" class="news">Javascript News</label> <br>
 
-        <label for="">Newsletter format</label> <br>
+        <p>Newsletter format</p> <br>
 
         <input type="radio" id="html" value="html" name="user_format">
         <label for="html" class="news">HTML</label> <br>
@@ -125,8 +130,8 @@
         <input type="radio" id="plain_text" value="plain_text" name="user_format">
         <label for="plain_text" class="news">Plain text</label> <br>
 
-        <label for="">Other topics you'd like to hear about</label> <br>
-        <textarea name="topics" id="topics" cols="30" rows="10"></textarea> <br>
+        <p>Other topics you'd like to hear about</p> <br>
+        <textarea name="topics" id="topics" cols="30" rows="5"></textarea> <br>
 
       </fieldset>
 

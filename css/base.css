@@ -9,22 +9,16 @@
 body {
 	font-family: 'Roboto', sans-serif;
 	line-height: 1.6;
-	color: #3a3a3a;
     margin: 0;
     
 }
 
 form {
-  max-width: 300px;
-  margin: 10px auto;
-  padding: 10px 20px;
-  background: #f4f7f8;
+  max-width: 320px;
+  padding: 10px;
   border-radius: 8px;
 }
 
-p {
-	font-size: .95em;
-}
 
 .main_header h2 {
     color: white;
@@ -35,6 +29,38 @@ p {
     margin-bottom: 30px;
 }
 
+.top {
+  text-align: center;
+  width: 90%;
+  margin-left: 15px;
+}
+
+.line {
+  margin-bottom: .5px;
+}
+
+.line_break {
+  width: 95%;
+  height: 5px;
+  color: #0c2d41;
+  background-color: #0c2d41;
+}
+
+.line_break2 {
+  width: 95%;
+  height: 2px;
+  color: #0c2d41;
+  background-color: #0c2d41;
+}
+
+
+.latest {
+  text-align: center;
+}
+
+.contact {
+  text-align: left;
+}
 
 
 h2
@@ -45,9 +71,10 @@ h2
 }
 
 p {
-    text-align: center;
+    text-align: left;
     color: rgb(182, 187, 186);
-    margin-top: 5px;
+    font-size: .95em;
+    
 }
 
 hr {
@@ -59,6 +86,10 @@ color: #0c2d41;
 height: 1px;
 }
 
+.newsletter {
+  text-align: left;
+}
+
 input[type="text"],
 input[type="email"],
 input[type="phone"],
@@ -68,6 +99,7 @@ input[type="zip"],
 select {
   background: rgba(255,255,255,0.1);
   border: none;
+  border-radius: 5px;
   font-size: 16px;
   height: auto;
   margin: 0;
@@ -78,6 +110,11 @@ select {
   color: #8a97a0;
   box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
   margin-bottom: 30px;
+}
+
+#zip {
+  display: block;
+  width: 50%;
 }
 input[type="radio"],
 input[type="checkbox"] {
@@ -90,19 +127,54 @@ select {
   border-radius: 2px;
 }
 
+#topics {
+  background: rgba(255,255,255,0.1);
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding: 15px;
+  width: 100%;
+  background-color: #e8eeef;
+  color: #8a97a0;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  
+}
+
 button {
   padding: 19px 39px 18px 39px;
   color: #FFF;
-  background-color: #4bc970;
+  background-color: #47c595;
   font-size: 18px;
   text-align: center;
   font-style: normal;
   border-radius: 5px;
   width: 100%;
-  border: 1px solid #3ac162;
+  border: 1px solid #47c595;
   border-width: 1px 1px 3px;
   box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
   margin-bottom: 10px;
+}
+
+fieldset {
+  margin-bottom: 30px;
+  border: none;
+}
+
+legend {
+  font-size: 1.4em;
+  margin-bottom: 10px;
+}
+label {
+  display: inline-block;
+  margin-bottom: 8px;
+}
+
+.footer-inner {
+  text-align: center;
+  color: rgb(182, 187, 186);
 }
 
 /* ================================= 
