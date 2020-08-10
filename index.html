@@ -4,12 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mobile Form</title>
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/flexbox.css">
 </head>
 <body>
-    <h1>The Code Review</h1>
-
-    <h1>Signup for our newsletter</h1>
-    <h3>Get the latest news on how your code is doing right in your inbox</h3>
+    <div class="main_header">
+      <h2>The Code Review</h2>
+    </div>
+    
+    <div class="top">
+      <h2>Signup for our newsletter</h2>
+      <p>Get the latest news on how your code is doing right in your inbox</p>
+    </div>
+    <hr>
 
 
     <form action="indedx.html" method="POST">
@@ -23,13 +31,13 @@
         <input type="email" id="mail" name="user_email">
 
         <label for="phone">Phone Number</label>
-        <input type="number" id="phone" name="user_phone_number">
+        <input type="phone" id="phone" name="user_phone_number">
 
         <label for="address">Street Address</label>
-        <input type="text" id="address" name="user_address">
+        <input type="address" id="address" name="user_address">
 
         <label for="city">City</label>
-        <input type="text" id="city" name="user_city">
+        <input type="city" id="city" name="user_city">
 
         <label for="state">State</label>
         <select id="state" name="state">
@@ -91,7 +99,7 @@
         </select>
 
         <label for="zip">Zip Code</label>
-        <input type="text" id="zip" name="user_zip_code">
+        <input type="zip" id="zip" name="user_zip_code">
 
       </fieldset>
 
@@ -117,7 +125,7 @@
         <input type="radio" id="plain_text" value="plain_text" name="user_format">
         <label for="plain_text" class="news">Plain text</label> <br>
 
-        <label for="">Other topics you'd like to hear about</label>
+        <label for="">Other topics you'd like to hear about</label> <br>
         <textarea name="topics" id="topics" cols="30" rows="10"></textarea> <br>
 
       </fieldset>
