@@ -9,7 +9,7 @@
 body {
 	font-family: 'Roboto', sans-serif;
 	line-height: 1.6;
-    margin: 0;
+  margin: 0;
     
 }
 
@@ -198,6 +198,10 @@ label {
   margin-bottom: 10rem;
 }
 
+.flex {
+  display: flex;
+  flex-direction: column;
+}
 /* ================================= 
   Media Querries
 ==================================== */
@@ -207,9 +211,13 @@ label {
 form {
   max-width: 768px;
   margin: 0 auto;
-  display: flex;
-  flex-direction: column;
 }
 
- 
+.flex {
+    flex-direction: row;    
+} 
+
+
+
+
 }
