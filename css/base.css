@@ -101,6 +101,7 @@ input[type="email"],
 input[type="phone"],
 input[type="address"],
 input[type="city"],
+select[name="state"],
 input[type="zip"],
 select {
   background: rgba(255,255,255,0.1);
@@ -201,6 +202,7 @@ label {
 .flex {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 /* ================================= 
   Media Querries
@@ -216,6 +218,41 @@ form {
 .flex {
     flex-direction: row;    
 } 
+
+input[type="text"],
+input[type="email"],
+input[type="phone"],
+input[type="address"],
+input[type="city"],
+input[type="zip"],
+select {
+  width: 80%;
+}
+#zip {
+  margin-right: auto;
+  margin-left: 80px;
+  width: 33%;
+}
+
+select[name="state"] {
+  margin-left: 105px;
+}
+
+.latest {
+  margin-bottom: 40px;
+  margin-top: 5px;
+}
+
+.sign {
+  margin-bottom: 5px;
+}
+
+
+
+.line_break2 {
+  margin-bottom: 50px;
+}
+
 
 
 
