@@ -27,7 +27,7 @@ form {
     padding-top: 15px;
     padding-bottom: 15px;
     margin-bottom: 30px;
-    margin-top: none;
+    
 }
 
 .top {
@@ -43,14 +43,12 @@ form {
 .line_break {
   width: 95%;
   height: 5px;
-  color: #0c2d41;
   background-color: #0c2d41;
 }
 
 .line_break2 {
   width: 95%;
   height: 2px;
-  color: #0c2d41;
   background-color: #0c2d41;
 }
 
@@ -97,11 +95,11 @@ height: 1px;
 
 input[type="text"],
 input[type="email"],
-input[type="phone"],
-input[type="address"],
-input[type="city"],
+input[type="tel"],
+input[type="text"],
+input[type="text"],
 select[name="state"],
-input[type="zip"],
+input[type="number"],
 select {
   background: rgba(255,255,255,0.1);
   border: none;
@@ -135,8 +133,7 @@ select {
 
 input:focus,
 select:focus,
-textarea:focus,
-button:focus {
+textarea:focus {
     outline: 2px solid rgb(22, 22, 58);
 }
 
@@ -168,12 +165,8 @@ button {
   background-color: #47c595;
   font-size: 18px;
   text-align: center;
-  font-style: normal;
   border-radius: 5px;
   width: 100%;
-  border: 1px solid #47c595;
-  border-width: 1px 1px 3px;
-  box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
   margin-bottom: 10px;
   margin-top: 15px;
 }
@@ -220,10 +213,10 @@ form {
 
 input[type="text"],
 input[type="email"],
-input[type="phone"],
-input[type="address"],
-input[type="city"],
-input[type="zip"],
+input[type="tel"],
+input[type="text"],
+input[type="text"],
+input[type="number"],
 select {
   width: 80%;
 }
